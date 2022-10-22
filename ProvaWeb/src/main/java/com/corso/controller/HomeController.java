@@ -25,8 +25,11 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		Utente u = new Utente();
+		Utente c = new Utente();
+		c.setNome("Piero");
 		u.setNome("Gianluca");
 		model.addAttribute("utente", u);
+		model.addAttribute("utente2", c);
 
 		model.addAttribute("serverTime", formattedDate);
 

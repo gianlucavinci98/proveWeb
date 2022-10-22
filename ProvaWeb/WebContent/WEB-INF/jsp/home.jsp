@@ -10,6 +10,7 @@
 	<P>Ora sul server: ${serverTime}.</p>
 	<P>Nome: ${utente.nome}</p>
 	<P>Nome: ${utente.cognome}</p>
+	<P>Nome: ${utente2.nome}</p>
 
 	<form action="user" method="post">
 		Nome: <input type="text" name="userName"><br> 
